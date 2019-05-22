@@ -1,0 +1,80 @@
+
+body {
+    background-image: url(img/springcat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body {
+    margin-top: -20px;
+}
+.calendar {  
+    background-image: url(img/spring1.jpg);
+    width: 400px;
+    height: 280px;
+    border: 10px double green; 
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.head { 
+    background-color: green;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+    margin-bottom: 70px;
+}
+.body-row {
+    margin-top: -1px;
+}
+.body-day {
+    display: inline-block;
+    width: 11.5%;
+    border: 2px solid rgb(34, 27, 27);
+}
+.body-day-h {
+    color: red;
+}
+.body-day-active {
+    border: 2px solid yellow;
+    background-image: linear-gradient(green,white);
+}
+.body-days,
+.body-row {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+}
+.body-day-no {
+    color: gray;
+    border: 2px solid rgb(34, 27, 27);
+    text-shadow: black 0 0 4px;
+}
+.head-month-name,
+.head-month-year {
+    font-family: fantasy;
+    font-size: 30px;
+    color: black;
+    display: inline-block;
+} 
+.head-days {
+    margin-top: -40px; 
+}
+.head-day-title-h {
+    color: red;
+}
+.head-month-prev {
+    position: relative;
+    right: 150px;
+    bottom: 34px;
+}
+.head-month-next {
+    position: relative;
+    left: 150px;
+    bottom: 67px;
+}
+
+
+  
